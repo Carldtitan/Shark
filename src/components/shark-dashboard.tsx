@@ -469,7 +469,10 @@ export function SharkDashboard() {
             <div className="live-call-gate">
               <div>
                 <LockKeyhole size={16} />
-                <span><strong>Live call protected</strong> Enter the private demo PIN. The destination cannot be changed here.</span>
+                <span>
+                  <strong>Live call protected · +1 ••• ••• ••••</strong>
+                  Consented recipient is locked in the server environment. Enter the private demo PIN to continue.
+                </span>
               </div>
               <label>
                 <span className="sr-only">Demo call PIN</span>
