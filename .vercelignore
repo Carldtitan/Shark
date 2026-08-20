@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.agents
+.skills
+skills
+specs
+Do not push
+node_modules
+coverage
+*.db
+*.log
+

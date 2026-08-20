@@ -1,0 +1,29 @@
+# Dependencies and builds
+node_modules/
+.next/
+out/
+build/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Secrets: keep the documented template only
+.env
+.env.*
+!.env.example
+
+# Local tools and material that must never be published
+.agents/
+.skills/
+skills/
+specs/
+[Dd]o [Nn]ot [Pp]ush/
+.vercel/
+
+# Local data and logs
+*.db
+*.db-journal
+*.log
+.DS_Store
+*.pem
+
