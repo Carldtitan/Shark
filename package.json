@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "verify:data": "tsx scripts/verify-synthetic-portfolio.ts"
+    "verify:data": "tsx scripts/verify-synthetic-portfolio.ts",
+    "seed:elastic": "tsx scripts/seed-elasticsearch.ts"
   },
   "dependencies": {
     "@ai-sdk/openai-compatible": "^3.0.32",
