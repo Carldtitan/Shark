@@ -19,6 +19,7 @@ skills/
 specs/
 [Dd]o [Nn]ot [Pp]ush/
 .vercel/
+.playwright-cli/
 
 # Local data and logs
 *.db
