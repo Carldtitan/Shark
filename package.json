@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "verify:data": "tsx scripts/verify-synthetic-portfolio.ts"
   },
   "dependencies": {
     "@ai-sdk/openai-compatible": "^3.0.32",
@@ -26,6 +27,8 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.1",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "tsx": "^4.23.12",
+    "typescript": "^5",
+    "vercel": "^59.1.4"
   }
 }
